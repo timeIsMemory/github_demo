@@ -1,0 +1,5 @@
+# 在实际开发中，这个文件通常不需要手动创建，在必须的时候添加自己的忽略内容即可 比如node_modules或者日志文件
+node_modules
+/dist
+.env.loacl
+.env.* .loacl
