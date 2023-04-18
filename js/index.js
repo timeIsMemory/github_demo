@@ -8,3 +8,9 @@ const foo = () => {
 const bar = () => {
   console.log("bar");
 };
+
+const throttle = function (fn, interval) {
+  return function () {
+    fn();
+  };
+};
